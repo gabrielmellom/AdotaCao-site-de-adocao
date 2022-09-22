@@ -1,0 +1,16 @@
+#Conteiner_main {
+  width: 100%;
+  height: 100vh;
+}
+#img_Home {
+  width: 100%;
+}
+#Conteiner_div {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* overflow-x: scroll; */
+  /* margin-left: 2vh; */
+  gap: 3%;
+}
