@@ -6,18 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AdotaÇão</title>
     <link rel="icon" type="image/jpg" href="././img/iconedog.png" />
+    <link rel="stylesheet" href="./style/reset.css" />
     <link rel="stylesheet" href="./style/style_Home.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="./script/index.js"></script>
   </head>
   <body>
     <header>
-      <div>
-        <img src="./LOGO.png" alt="" />
+      <div id="Div_conteiner">
+        <img id="imagem_logo" src="./LOGO.png" alt="" />
       </div>
       <div>
-        <ul>
-          <li>Quem Somos</li>
-          <li>Nosso Proposito</li>
-          <li>Clique para fazer Login</li>
+        <ul id="conteiner_ul">
+          <a class="tag_a" href="#h3_div">
+            <li class="li_Header">Quem Somos</li></a
+          >
+          <a class="tag_a" href="#div_proposito_conteiner"
+            ><li class="li_Header">Nosso Proposito</li></a
+          >
+          <div class="div_cadastro">
+            <li id="login" class="li_Header">Login</li>
+            <li id="cadastro" class="li_Header">Cadastre-se</li>
+          </div>
         </ul>
       </div>
     </header>
@@ -25,18 +41,55 @@
       <img id="img_Home" src="./img/fundoEditado.png" alt="" />
 
       <div id="Conteiner_div">
-        <div><p>Quer adotar um companheiro?</p></div>
-        <div><p>Achou um cachorrinho perdido?</p></div>
-        <div><p>Doação,Rações e medicamentos</p></div>
+        <div class="div_tag">
+          <p class="p_interno">Quer adotar um companheiro?</p>
+        </div>
+
+        <div class="div_tag">
+          <p class="p_interno">Achou um cachorrinho perdido?</p>
+        </div>
+        <div class="div_tag">
+          <p class="p_interno">Doação,Rações e medicamentos</p>
+        </div>
       </div>
       <p></p>
       <p></p>
-      <div>
-        <p>A adotaCão , tem como objetivo ajudar cachorros perdidos a reencontrarem seus donos
-        <p>juntamente com uma ampla rede de ajuda a pessoas que dedicam seu tempo ao cuidados dos bichinhos.</p>
-        <p>Você não tem tempo de cuidar de um gato ou cachorro e deseja ajudar essas pessoas que fazer esse trabalho tão importante? por aqui você pode fazer doaçoes de ração, remedios, oferecer castração, e ate mesmo ajuda financeira para cirurgias e cuidados em geral </p>
-        
+      <div id="div_conteiner_title">
+        <h3 id="h3_div">Quem somos ?</h3>
+        <p class="paragrafo_h3">
+          Somos apenas pessoas que amam os animais, nosso unico proposito é
+          proporcionar aos bichinhos uma vida digna de muito amor e sem maus
+          tratos
         </p>
+      </div>
+      <div>
+        <div id="div_proposito_conteiner">
+          <h3 class="h3_proposito">Nosso proposito</h3>
+          <p class="p_h3_proposito">
+            A adotaCão , tem como objetivo ajudar cachorros e gatos perdidos a
+            reencontrarem seus donos
+          </p>
+          <p class="p_h3_proposito">
+            juntamente com uma ampla rede de ajuda a pessoas que dedicam seu
+            tempo ao cuidados dos bichinhos.
+          </p>
+          <p class="p_h3_proposito">
+            A adotaCão tambem da todo o suporte um unir uma doação responsavel
+            com uma adoção resposavel, sempre pensando no bem estar dos nossos
+            companheiros de quatro patas.
+          </p>
+        </div>
+
+        <div class="div_cuidados">
+          <h3 class="h3_cuidados">Ao seus cuidados</h3>
+          <p class="paragrafo_cuidados">
+            Você não tem tempo de cuidar de um gato ou cachorro e e ainda assim
+            deseja ajudar de alguma forma essas pessoas que fazem esse trabalho
+            tão importante? por aqui você pode fazer doaçoes de ração, remedios,
+            oferecer serviços medicos como castração, e ate mesmo ajuda
+            financeira para cirurgias e cuidados em geral
+          </p>
+        </div>
       </div>
     </main>
   </body>
