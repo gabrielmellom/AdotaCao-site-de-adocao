@@ -52,7 +52,9 @@
   text-decoration: none;
 }
 .div_tag {
-  background-color: bisque;
+  /* position: absolute; */
+  background-color: rgb(184 144 109 / 43%);
+  /* background-color: #f0b36b; */
   display: flex;
   width: 14vh;
   /* border: solid 1px; */
@@ -156,7 +158,7 @@
   top: 5%;
   left: 11.5%;
   position: absolute;
-  border: solid 2px #ffd7d7;
+  border: solid 2px #fdc786;
   border-radius: 29px;
   width: 76%;
   height: 71%;
@@ -187,6 +189,7 @@
   font-family: "Poppins";
   font-weight: 500;
   margin-bottom: -7%;
+  width: 68%;
 }
 .input_nome_modal {
   width: 66%;
@@ -202,6 +205,48 @@
   border: solid #dbdacc;
   background: aliceblue;
   border-radius: 12px;
+}
+.botao_modal {
+  width: 31%;
+  height: 6%;
+  border-radius: 18px;
+  background: #d2691e70;
+  color: white;
+  border: none;
+}
+.inputEmail {
+  width: 66%;
+  height: 7%;
+  border: solid #dbdacc;
+  background: aliceblue;
+  border-radius: 12px;
+}
+.RepetirSenha {
+  width: 66%;
+  height: 7%;
+  border: solid #dbdacc;
+  background: aliceblue;
+  border-radius: 12px;
+}
+.inputTelefone {
+  width: 66%;
+  height: 7%;
+  border: solid #dbdacc;
+  background: aliceblue;
+  border-radius: 12px;
+}
+.selectEstado {
+  width: 66%;
+  height: 7%;
+  border: solid #dbdacc;
+  background: aliceblue;
+}
+.end {
+  border: solid #dbdacc;
+  width: 100%;
+  height: 48%;
+  background: #d88a1ea3;
+  margin-top: 6vh;
 }
 @keyframes go-back {
   0% {
